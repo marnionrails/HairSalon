@@ -9,4 +9,14 @@
 <h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h3>
 <h3>@Html.DisplayNameFor(model => model.Specialty): @Html.DisplayFor(model => model.Specialty)</h3>
 
+<h2>Clients for @Html.DisplayFor(model => model.Name)</h2>
+<hr>
+<ul>
+  @foreach (var Clients in Model.Clients)
+  {
+    <p>@Clients.Name</p>
+  }
+</ul>
+
 <p>@Html.ActionLink("Add a client", "Create", "Clients")</p>
+<p>@Html.ActionLink("Back to List", "Index")</p>
