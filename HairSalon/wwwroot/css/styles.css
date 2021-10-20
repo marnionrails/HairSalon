@@ -1,0 +1,30 @@
+html{ height:100%; margin:0; padding:0; }
+
+body {
+  height:60%;
+  font-family:'Trebuchet MS',  'Arial', 'Helvetica', 'sans-serif';
+  font-size:10pt;
+  background-color: LightGray;
+  line-height:1.6em;
+}
+
+h1{ 
+  font-size:2em; 
+  font-weight: 600;
+}
+h2{ font-size:1.6em; }
+
+#container{
+   min-height:100%;
+   text-align: center;
+   left:10%;
+   line-height: 300%;
+}
+
+li { 
+  font-size: 2em; 
+  line-height: 200%;
+}
+
+p { font-size: 2em; }
+
